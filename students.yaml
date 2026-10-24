@@ -1,0 +1,23 @@
+- name: "Sam"
+  dob: "13-12-1990"
+  mobile: 12355
+  addresses:
+  - Flate : 104
+    street: "power street"
+    city: London
+  
+  - Flate : 1044
+    street: "garden street"
+    city: London
+
+- name: "David"
+  dob: "13-12-1990"
+  mobile: 12355
+  addresses:
+  - Flate : 104
+    street: "power street"
+    city: London
+  
+  - Flate : 1044
+    street: "garden street"
+    city: London
