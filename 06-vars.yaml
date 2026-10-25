@@ -4,8 +4,8 @@
   vars_files:
   - course.yaml
   tasks:
-  vars:
-    course: azur
   - name: print varaiabes
+    vars:
+      course: azur
     ansible.builtin.debug:
       msg: "Course is {{ course }} with the duration of {{ Duration }} and the trainer is {{ trainer }}"
