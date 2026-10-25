@@ -1,23 +1,24 @@
-- name: "Sam"
-  dob: "13-12-1990"
-  mobile: 12355
-  addresses:
-  - Flate : 104
-    street: "power street"
-    city: London
+- name: "yas"
+  dob: "17-02-1990"
+  mobile: "074523123"
+  email: "er.test@gmail.com
+  address:
+  - flatnumber: 204
+    street: "17 chamber"
+    city: hyderabad
+    type: current
   
-  - Flate : 1044
-    street: "garden street"
-    city: London
+  - flatnumber: 405
+    street: "17 yester"
+    city: shadnagar
+    type: perm
 
-- name: "David"
-  dob: "13-12-1990"
-  mobile: 12355
-  addresses:
-  - Flate : 104
-    street: "power street"
-    city: London
-  
-  - Flate : 1044
-    street: "garden street"
-    city: London
+- name: install and run nginx
+  hosts: local
+  connection: local
+  tasks:
+  - name: install nginx
+    ansible.builtin.debug:
+      name: nginx
+      state: present
+      
