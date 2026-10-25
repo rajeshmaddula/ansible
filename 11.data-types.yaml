@@ -1,0 +1,23 @@
+- name: demo on data type
+  host: local
+  connection: local
+  vars:
+    PROGRAM: "AWS COURSE" # string
+    DURATION: 140 # int/number
+    IS_LIVE: true # bool
+    DETAILS: # key value pairs -> map/dictionary
+      MONTHS: 4
+      TRAINER: Raj
+    TOPICS: 
+    - LINUX #list -> -/[]
+    - SHELL
+    - ANSIBLE
+  tasks:
+  - name: print variables
+    ansible.builtin.debud:
+      msg: |
+        Program: {{ PROGRAM }}
+        Duration: {{ DURATION }}
+        Is live: {{ IS_LIVE }}
+        Details: {{ DETAILS }}
+        Topics: {{ TOPICS }}
