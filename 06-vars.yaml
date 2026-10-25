@@ -6,4 +6,4 @@
   tasks:
   - name: print varaiabes
     ansible.builtin.debug:
-      msg: "Course is {{ course }} with the duration of {{ duration }} and the trainer is {{ trainer }}"
+      msg: "Course is {{ course }} with the duration of {{ Duration }} and the trainer is {{ trainer }}"
