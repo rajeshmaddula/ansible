@@ -1,5 +1,5 @@
 - name: demo on data type
-  host: local
+  hostS: local
   connection: local
   vars:
     PROGRAM: "AWS COURSE" # string
