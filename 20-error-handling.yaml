@@ -1,5 +1,5 @@
 - name: demo on error handling
-  host: local
+  hosts: local
   connection: local
   tasks:
   - name: chek if the user exits
