@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: chek if the user exits
-    ansible.builtin.command: id roboshop
+    ansible.builtin.command: id rajesh
     register: user_output
     ignore_errors: true
 
