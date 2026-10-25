@@ -3,7 +3,7 @@
   connection: local
   vars:
     topics: linu, shell ansible, terraform
-    tags:
+    tag_map:
       name: ansible
       project: roboshop
       component: catalogue
@@ -18,4 +18,4 @@
   
   - name: convert map to list
     ansible.builtin.debug:
-      msg: "{{ tags | dict2items }}"
+      msg: "{{ tags_map | dict2items }}"
