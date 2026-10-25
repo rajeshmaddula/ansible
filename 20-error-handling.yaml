@@ -7,6 +7,10 @@
     register: user_output
     ignore_errors: true
 
+  - name: Print the return code
+    ansible.builtin.debug:
+      msg: "The return code is {{ user_output.rc }}"
+
   - name: print the user_output
     ansible.builtin.debug:
       msg: "{{ user_output}}"
