@@ -3,7 +3,7 @@
   connection: local
   vars:
     topics: linu, shell ansible, terraform
-    tag_map:
+    tags_map:
       name: ansible
       project: roboshop
       component: catalogue
