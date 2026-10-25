@@ -5,6 +5,7 @@
   - name: chek if the user exits
     ansible.builtin.command: id roboshop
     register: user_output
+    ignore_error: true
 
   - name: print the user_output
     ansible.builtin.debug:
