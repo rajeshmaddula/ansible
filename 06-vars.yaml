@@ -6,6 +6,6 @@
   tasks:
   - name: print varaiabes
     vars:
-      course: "Azur devosp"
+      #course: "Azur devosp"
     ansible.builtin.debug:
       msg: "Course is {{ course }} with the duration of {{ duration }} and the trainer is {{ trainer }}"
